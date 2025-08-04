@@ -511,10 +511,10 @@
 						"timeZone": "SE Asia Standard Time",
 						"schedule": {
 							"minutes": [
-								39
+								32
 							],
 							"hours": [
-								22
+								23
 							]
 						}
 					}
