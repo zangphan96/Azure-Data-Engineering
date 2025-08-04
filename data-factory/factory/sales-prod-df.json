@@ -1,0 +1,9 @@
+{
+	"name": "sales-prod-df",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74888616-dc06-4582-b1be-13ce30b0499e",
+		"tenantId": "5282c992-3c05-4a1a-9bf3-e662d817ff89"
+	}
+}
