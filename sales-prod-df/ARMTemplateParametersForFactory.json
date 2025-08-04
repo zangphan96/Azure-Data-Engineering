@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sales-prod-df"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://salesdlprod1.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0715-110538-jf8x3goy"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://sales-prod-kv.vault.azure.net/"
+		},
+		"onpremsqlserver_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"onpremsqlserver_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"onpremsqlserver_properties_typeProperties_userName": {
+			"value": "zang"
+		}
+	}
+}
