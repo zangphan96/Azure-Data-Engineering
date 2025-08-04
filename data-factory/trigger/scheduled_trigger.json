@@ -16,11 +16,11 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2025-08-01T10:48:00",
+				"startTime": "2025-08-04T10:20:00",
 				"timeZone": "SE Asia Standard Time",
 				"schedule": {
 					"minutes": [
-						0
+						25
 					],
 					"hours": [
 						10
