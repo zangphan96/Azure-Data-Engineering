@@ -214,7 +214,7 @@
 						}
 					},
 					{
-						"name": "synapse-pipeline-API",
+						"name": "Synapse pipeline API",
 						"type": "WebActivity",
 						"dependsOn": [
 							{
