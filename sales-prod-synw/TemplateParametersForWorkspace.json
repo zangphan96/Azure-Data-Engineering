@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "sales-prod-synw"
+		},
+		"sales-prod-synw-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:sales-prod-synw.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://salesdlprod1.dfs.core.windows.net/"
+		},
+		"ServerlessSqlDatabase_properties_typeProperties_server": {
+			"value": "sales-prod-synw-ondemand.sql.azuresynapse.net"
+		},
+		"ServerlessSqlDatabase_properties_typeProperties_database": {
+			"value": "gold_db"
+		},
+		"sales-prod-synw-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://salesproddlsynw.dfs.core.windows.net"
+		}
+	}
+}
