@@ -1,0 +1,7 @@
+{
+	"name": "SHIR-01",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Used to connect to SQL server"
+	}
+}
