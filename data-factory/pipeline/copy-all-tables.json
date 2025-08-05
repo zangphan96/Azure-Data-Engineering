@@ -188,11 +188,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "POST",
-					"url": "https://sales-prod-synw.dev.azuresynapse.net/pipelines/create_view/createRun?api-version=2020-12-01",
-					"authentication": {
-						"type": "MSI",
-						"resource": "https://dev.azuresynapse.net"
-					}
+					"url": "https://sales-prod-synw.dev.azuresynapse.net/pipelines/create_view/createRun?api-version=2020-12-01"
 				}
 			}
 		],
