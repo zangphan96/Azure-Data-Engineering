@@ -25,7 +25,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - **Data Processing**: Azure Databricks
 - **Visualization**: Power BI
 
----
+
 
 ## **Skills & Experience Gained**
 - **Azure Cloud Environment** – Gained familiarity with Azure data services and integration patterns.
@@ -34,7 +34,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - **Data Cleaning & Transformation** – Applied ETL best practices for reliable, business-ready datasets.
 - **Real-Time Analytics** – Built dashboards for near real-time insights in Power BI.
 
----
+
 
 ## **Key Features**
 - Automated ETL pipeline with minimal manual intervention.
@@ -42,7 +42,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - Optimized transformations for analytics performance.
 - Modular design for easy maintenance and updates.
 
----
+
 
 ## **Setup & Deployment**
 
@@ -55,34 +55,34 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - Power BI Desktop or Power BI Service account.
 - Azure CLI (optional for automation).
 
----
+
 
 ### **Step 1 — Data Extraction**
 1. Connect **Azure Data Factory** to the local SQL Server database.
 2. Create a **Linked Service** for SQL Server and Azure Data Lake Storage.
 3. Configure a **Copy Data Activity** to move raw data into the **Bronze Layer** in Azure Data Lake.
 
----
+
 
 ### **Step 2 — Data Transformation**
 1. Use **Azure Databricks** to process data from the Bronze Layer.
 2. Apply cleaning, formatting, and enrichment steps to produce **Silver Layer** datasets.
 3. Create aggregated, analytics-ready datasets for the **Gold Layer**.
 
----
+
 
 ### **Step 3 — Data Loading to Power BI**
 1. Connect Power BI to the **Gold Layer** datasets in Azure Data Lake or Azure Synapse.
 2. Design interactive dashboards and enable scheduled refresh for near real-time updates.
 
----
+
 
 ### **Step 4 — Orchestration & Automation**
 1. Schedule pipeline runs in Azure Data Factory.
 2. Monitor pipeline execution and configure alerts for failures.
 3. Implement version control using GitHub integration with Data Factory & Databricks notebooks.
 
----
+
 
 ### **Step 5 — Testing & Optimization**
 - Test with sample datasets before production.
