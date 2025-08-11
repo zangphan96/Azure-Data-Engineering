@@ -1,5 +1,7 @@
 # End-to-End ETL Data Pipeline for Real-Time Analytics
 
+
+
 ## **Overview**
 This project implements an **end-to-end ETL data pipeline** that:
 - **Extracts** data from a local SQL Server database.
@@ -8,15 +10,28 @@ This project implements an **end-to-end ETL data pipeline** that:
 
 The pipeline was designed with scalability and maintainability in mind, leveraging **Azure Cloud Services** and following the **Medallion Architecture** approach for batch data processing.
 
+
+
 ## **Goals of the project:**
 - Get familiar with Azure cloud environment and offered data services
-- Gained an understanding of architecture for batch data processing using medallion architectue
-- Obtained hands-on experience with working with cloud data warehouses and data orchestration tools
+- Gain an understanding of architecture for batch data processing using medallion architectue
+- Obtain hands-on experience with working with cloud data warehouses and data orchestration tools
+
+
 
 ## **Architecture**
 
 
-    
+
+## **Key Features**
+- **Seamless Cloud Integration** – Built and deployed the pipeline entirely in the **Azure Cloud Environment**, leveraging Azure Data Factory, Azure Data Lake, and Azure Databricks.  
+- **Layered Data Processing** – Implemented the **Medallion Architecture** (Bronze, Silver, Gold layers) for structured batch data processing and improved data quality.  
+- **Scalable Data Orchestration** – Designed workflows in Azure Data Factory to handle large-scale data ingestion and transformation with minimal manual intervention.  
+- **Robust Data Transformation** – Applied cleaning, formatting, and enrichment techniques to deliver reliable, analytics-ready datasets.  
+- **Real-Time Insights** – Connected the final datasets to **Power BI** dashboards for interactive and near real-time analytics, supporting quick business decision-making.  
+
+
+
 ## **Technologies Used**
 - **Database**: SQL Server
 - **Cloud Platform**: Microsoft Azure
@@ -24,15 +39,6 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - **Data Storage**: Azure Data Lake Storage
 - **Data Processing**: Azure Databricks
 - **Visualization**: Power BI
-
-
-
-## **Skills & Experience Gained**
-- **Azure Cloud Environment** – Gained familiarity with Azure data services and integration patterns.
-- **Medallion Architecture** – Developed an understanding of batch data processing layers (Bronze, Silver, Gold).
-- **Cloud Data Warehouses & Orchestration** – Hands-on experience with large-scale data workflows.
-- **Data Cleaning & Transformation** – Applied ETL best practices for reliable, business-ready datasets.
-- **Real-Time Analytics** – Built dashboards for near real-time insights in Power BI.
 
 
 
