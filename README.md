@@ -20,7 +20,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 
 
 ## **Architecture**
-
+<!-- ![Project architecture](./images/logo.png)-->
 
 
 ## **Key Features**
@@ -39,14 +39,6 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - **Data Storage**: Azure Data Lake Storage
 - **Data Processing**: Azure Databricks
 - **Visualization**: Power BI
-
-
-
-## **Key Features**
-- Automated ETL pipeline with minimal manual intervention.
-- Scalable architecture for increasing data volumes.
-- Optimized transformations for analytics performance.
-- Modular design for easy maintenance and updates.
 
 
 
