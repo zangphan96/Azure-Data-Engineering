@@ -15,13 +15,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 
 ## **Architecture**
 
-```mermaid
-graph TD
-    A[Local SQL Server Database] -->|Extract| B[Azure Data Factory]
-    B -->|Load Raw Data| C[Bronze Layer]
-    C -->|Clean & Transform| D[Silver Layer]
-    D -->|Aggregate & Model| E[Gold Layer]
-    E -->|Load| F[Power BI Dashboard]
+
     
 ## **Technologies Used**
 - **Database**: SQL Server
