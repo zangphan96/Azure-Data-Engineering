@@ -9,7 +9,7 @@ This project implements an **end-to-end ETL data pipeline** that:
 The pipeline was designed with scalability and maintainability in mind, leveraging **Azure Cloud Services** and following the **Medallion Architecture** approach for batch data processing.
 
 ## **Goals of the project:**
-- Get familiar with Azure cloud environemt and offered data services
+- Get familiar with Azure cloud environment and offered data services
 - Gained an understanding of architecture for batch data processing using medallion architectue
 - Obtained hands-on experience with working with cloud data warehouses and data orchestration tools
 
