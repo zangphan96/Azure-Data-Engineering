@@ -12,7 +12,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 
 
 
-## **Goals of the project:**
+## **Goals of the project**
 - Get familiar with Azure cloud environment and offered data services
 - Gain an understanding of architecture for batch data processing using medallion architectue
 - Obtain hands-on experience with working with cloud data warehouses and data orchestration tools
