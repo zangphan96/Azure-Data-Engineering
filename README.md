@@ -20,7 +20,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 
 
 ## **Architecture**
-![Project architecture](./images/architecture.jpeg)
+![Project architecture](./images/architecture.jpg)
 
 
 ## **Key Features**
