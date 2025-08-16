@@ -53,12 +53,13 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - Power BI Desktop or Power BI Service account.
 - Azure CLI (optional for automation).
 
-
-
+![Resource group](./images/resource-group.png)
+![Azure Data Lake Gen2 layer containers](./images/containers.png)
 ### **Step 1 — Data Extraction**
 1. Connect **Azure Data Factory** to the local SQL Server database.
 2. Create a **Linked Service** for SQL Server and Azure Data Lake Storage.
 3. Configure a **Copy Data Activity** to move raw data into the **Bronze Layer** in Azure Data Lake.
+![Data Factory Pipeline](./images/data-factory-pipeline.png)
 
 
 
@@ -72,7 +73,9 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 ### **Step 3 — Data Loading to Power BI**
 1. Connect Power BI to the **Gold Layer** datasets in Azure Data Lake or Azure Synapse.
 2. Design interactive dashboards and enable scheduled refresh for near real-time updates.
-
+![Synapse Analytics Pipeline](./images/synapse-analytics-pipeline.png)
+![Data model](./images/data-model.png)
+![Power BI dashboard](./images/power-bi-dashboard.png)
 
 
 ### **Step 4 — Orchestration & Automation**
@@ -86,4 +89,5 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - Test with sample datasets before production.
 - Monitor performance and optimize transformations.
 - Ensure security with Azure Role-Based Access Control (RBAC).
+
 
