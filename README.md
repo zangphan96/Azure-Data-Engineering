@@ -73,7 +73,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 ### **Step 3 — Data Loading to Power BI**
 1. Connect Power BI to the **Gold Layer** datasets in Azure Data Lake or Azure Synapse.
 2. Design interactive dashboards and enable scheduled refresh for near real-time updates.
-![Synapse Analytics Pipeline](./images/synapse-analytics-pipeline.png)
+![Synapse Analytics Pipeline](./images/synapse-pipeline.png)
 ![Data model](./images/data-model.png)
 ![Power BI dashboard](./images/power-bi-dashboard.png)
 
