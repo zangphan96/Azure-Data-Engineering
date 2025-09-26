@@ -1,4 +1,4 @@
-# End-to-End ETL Data Pipeline for Real-Time Analytics
+# End-to-End ETL Data Pipeline for Scheduled Analytics
 
 
 
@@ -6,7 +6,7 @@
 This project implements an **end-to-end ETL data pipeline** that:
 - **Extracts** data from a local SQL Server database.
 - **Transforms** and cleans the data into a business-ready format for analytics.
-- **Loads** the processed data into a **Power BI dashboard** for **real-time analytics**.
+- **Loads** the processed data into a **Power BI dashboard** for **scheduled reporting and analytics**.
 
 The pipeline was designed with scalability and maintainability in mind, leveraging **Azure Cloud Services** and following the **Medallion Architecture** approach for batch data processing.
 
@@ -28,7 +28,7 @@ The pipeline was designed with scalability and maintainability in mind, leveragi
 - **Layered Data Processing** – Implemented the **Medallion Architecture** (Bronze, Silver, Gold layers) for structured batch data processing and improved data quality.  
 - **Scalable Data Orchestration** – Designed workflows in Azure Data Factory to handle large-scale data ingestion and transformation with minimal manual intervention.  
 - **Robust Data Transformation** – Applied cleaning, formatting, and enrichment techniques to deliver reliable, analytics-ready datasets.  
-- **Real-Time Insights** – Connected the final datasets to **Power BI** dashboards for interactive and near real-time analytics, supporting quick business decision-making.  
+- **Up-to-date Insights** – Connected the final datasets to Power BI dashboards for interactive, scheduled analytics, enabling timely business decision-making.
 
 
 
